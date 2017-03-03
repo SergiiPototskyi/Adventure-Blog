@@ -1,0 +1,296 @@
+body {
+	font-family: Arial sans-serif;
+	margin: 0vw;
+	padding: 0vw;
+}
+
+.header {
+	background-image: url(../images/TRAVEL-ADVENTURE.jpg);
+	background-size: 100%;
+	height: 40vw;
+	box-shadow: 0 5px 10px -5px #333;	
+}
+
+.page-navigation {
+	padding: 1vw 0;
+	box-sizing: border-box;
+	position: relative;
+	height: 5vw;
+}
+
+.menu {
+	display: table;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.menu-item {
+	display: inline-block;
+	list-style-type: none; 
+	margin: 0 2.5vw;
+	height: 1.2vw;
+}
+
+.menu-item > a {
+	font-size: 0.8vw;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Work Sans', sans-serif;
+	color: #e1e2d0;
+}
+
+.logo-title {
+	position: relative;	
+	height: 35vw;
+	box-sizing: border-box;
+}
+
+.logo-class {
+	position: relative;
+	top: calc(50% - 8vw);
+	min-height: 10vw;
+	width: 30vw;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.logo-title-1 {
+	width: 25vw;
+	height: 8vw;
+	margin: 0 auto;
+	padding-bottom: 0;
+	text-align: center;
+}
+
+.logo-title-1 > h1 {
+	font-size: 4vw;
+	font-family: 'Domine', serif;
+	text-align: center;
+	color: #e1e2d0;
+	line-height: 4vw;
+	margin: 0;
+}
+
+.logo-title-2 {
+	display: table;
+	width: 18vw;
+	height: 1.7vw;
+	margin: 0 auto;
+	text-align: center;	
+	margin-top: 0.5vw;
+}
+
+.logo-title-2 > h2 {
+	display: table-cell;
+	font-size: 1.3vw;
+	color: #e1e2d0;	
+	font-family: 'Work Sans', sans-serif;
+} 
+
+.main {
+	box-shadow: 0 -0.3vw 1vw rgba(51, 51, 51, 0.3);
+}
+
+.icon {
+	display: table-cell;
+    width: 2vw;
+    height: 1.5vw;
+    vertical-align: bottom;
+    background: url("../images/arrow-symbols-icons.png") no-repeat;
+    background-size: 1.8vw;
+}
+
+.icon-1 {
+	 background-position: 0vw -0.17vw;	
+
+}
+
+.icon-2 {
+	 background-position: 0vw -0.07vw;	
+	 transform: rotate(180deg);
+}
+
+.site-content {
+	position: relative;
+}
+
+.content-column {
+	position: relative;	
+	width: 50%;
+	height: 55%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.content-column-1 {
+	background-color: #054eaf;
+}
+
+.content-column-2 {
+	background-color: #026e82;
+}
+
+.content-column-3 {
+	background-color: #077c75;
+}
+
+.column-left {
+	float: left;
+}
+
+.column-left-2 {
+	float: right;
+}
+
+.column-right-2 {
+	float: left;
+	background: #edeeef;
+}
+
+.background {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url("../images/mount.jpg");
+	background-size: 100%;
+	opacity: 0.2;
+}
+
+.background-2 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url("../images/adventure.jpg");
+	background-size: 100%;
+	opacity: 0.2;
+}
+
+.column-right {
+	float: right;
+	background: #edeeef;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.article-title {
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	font-size: 3vw;
+	font-weight: bold;
+	font-family: 'Work Sans', sans-serif;
+	color: #e1e2d0;	
+}
+
+.article-title-2 {
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	font-size: 3vw;
+	font-weight: bold;
+	font-family: 'Work Sans', sans-serif;
+	color: #e1e2d0;
+}
+
+.article-text {
+	padding: 5% 8%;
+	font-size: 1.5vw;	
+	color: #66696b;
+	font-family: 'Amiko', sans-serif;
+	text-align: left;
+}
+
+.footer {
+	width: 100%;
+	height: 7vw;
+	background: url(../images/TRAVEL-ADVENTURE.jpg);
+	background-size: 100%;
+	background-position: 0 -19vw;
+}
+
+.social-buttons {
+	position: relative;
+	height: 3vw;
+	padding: 0;
+	background: rgba(66, 165, 145, 0.3);
+}
+
+.socials {
+	display: table-cell;
+    width: 2.35vw;
+    height: 1.35vw;
+    background: url("../images/Social_circle.png") no-repeat;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    background-size: 19.8vw;
+}
+
+.socials-text {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 0.9vw;
+	font-weight: 300;
+	font-family: 'Work Sans', sans-serif;
+	color: white;
+	padding-right: 3vw;
+}
+
+.footer-buttons {
+	display: table;
+	float: right;
+	padding: 0;
+	height: 2.35vw;
+	margin-right: 30%;
+	border-collapse: collapse;
+	margin-top: 0.3vw;
+}
+
+.social-fb {
+	background-position: -1.42vw -0.83vw;	
+}
+
+.social-rss {
+	background-position: -3.67vw -0.83vw;	
+}
+
+.social-lin {
+	background-position: -5.82vw -0.83vw;	
+}
+
+.social-pint {
+	background-position: -8.02vw -0.83vw;	
+}
+
+.social-share {
+	background-position: -10.22vw -0.85vw;	
+}
+
+.social-yout {
+	background-position: -12.42vw -0.83vw;		
+}
+
+.social-tw {
+	background-position: -14.62vw -0.83vw;	
+}
+
+.contacts {
+	height: 4vw;
+	background-color: rgba(3, 139, 165, 0.2);
+	text-align: center;
+	padding-top: 1.5vw;
+	box-sizing: border-box;
+}
+
+.contacts > p {
+	margin: 0;
+	font-size: 0.8vw;
+	font-weight: bold;
+	font-family: 'Work Sans', sans-serif;
+	color: rgb(25, 24, 10);
+}
